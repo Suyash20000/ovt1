@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:elevation="40dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="197dp"
+            android:layout_height="38dp"
+            android:text="Sing In"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="197dp"
+            android:layout_height="38dp"
+            android:text="Sing Up"
+
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:text="OUR SERVICES"
+        android:textColor="#FF5722"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:rowCount="5"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/bpata"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="PAN/TAN"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bvapp"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="VENDER APPLICATION"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bintxre"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="ITR"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/btdstcsre"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="TDS/TCS RETURN"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/breg"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="REGISTRATION"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bllpcoin"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="LLP/Comp. Inco."
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bgst"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="GST"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bnposngos"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="NPOS/NGOS"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bfoodreg"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="FOOD REGISTRATION/LICENSE"
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/bdsc"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="@color/black"
+            android:text="DIGITAL SIGNATURE CERTIFICATION "
+            android:textColor="@color/orange"
+            android:textSize="10sp"
+            app:backgroundTint="@color/white" />
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grid"
+        app:srcCompat="@drawable/moneychamp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

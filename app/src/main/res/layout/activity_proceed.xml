@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:onClick="proceed"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="DOB "
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="Aadhar No"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/pan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="PAN No"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/pcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="PIN code"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="State"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawablePadding="10dp"
+        android:hint="District"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="proceed"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Proceed"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

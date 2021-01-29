@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="BRN-Business Registration No" />
+    <item
+        android:id="@+id/two"
+        android:title="
+Import Export Code (IEC)" />
+    <item
+        android:id="@+id/three"
+        android:title="
+Partnership Firm" />
+    <item
+        android:id="@+id/four"
+        android:title="Shop Act Registration" />
+    <item
+        android:id="@+id/five"
+        android:title="
+Trademark Registration" />
+    <item
+        android:id="@+id/six"
+        android:title="
+Udyog Aadhar/MSME Registration" />
+</menu>

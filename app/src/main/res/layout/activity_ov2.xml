@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/mail"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:password="true"
+        android:inputType="textPassword|numberPassword"
+        android:padding="15dp"
+        android:textColor="#FF9800"
+        android:textColorHighlight="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FF9800"
+            android:checked="true"
+            android:text="Remember Me"
+            android:textColor="#FF9800" />
+
+        <Button
+            android:id="@+id/fpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/design_default_color_background"
+            android:drawablePadding="6dp"
+            android:onClick="forpas"
+            android:padding="4dp"
+            android:text="Forget Password"
+            android:textColor="#FF9800"
+            app:backgroundTint="@color/design_default_color_background" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="logon"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:shape="oval"
+        android:text="Log In"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:onClick="signup"
+        android:padding="4dp"
+        android:text="Sign up"
+        android:textColor="#FF9800"
+        app:backgroundTint="@color/design_default_color_background" />
+
+
+</LinearLayout>
